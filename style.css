@@ -1,0 +1,39 @@
+/*colors:#FFFFFF = white
+         #0C7489 = blue
+         #5CCEFF = light blue
+         #040404 = black
+         #766B6E = dim grey
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{width:600px;}
+
+nav{background-color:#:#5CCEFF;
+   border:1px solid #5CCEFF;
+   color:#000000;
+   display:block;
+   overflow:hidden;
+   width:100%;
+   }
+
+nav ul li{display:inline-block;
+         list-style-type:none;}
+
+nav ul li a{color:#000000;
+           display:block;
+           line-height:56px;
+           text-decoration:none;
+           padding:10px;}
+
+nav ul li:hover{background-color: #0C7489;}
+
+nav ul li:hover a{color:black;}
+
+footer{background-color:#5CCEFF;
+      color:black;
+      text-align:center;
+      padding:3px;}
